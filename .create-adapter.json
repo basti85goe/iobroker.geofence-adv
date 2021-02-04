@@ -1,0 +1,37 @@
+{
+	"cli": true,
+	"adapterName": "geofence-adv",
+	"title": "Geofence ADVANCED",
+	"description": "Geofence with Geofency",
+	"contributors": [
+		"Sebastian Schwill"
+	],
+	"expert": "no",
+	"features": [
+		"adapter"
+	],
+	"adminFeatures": [],
+	"type": "geoposition",
+	"startMode": "daemon",
+	"connectionType": "cloud",
+	"dataSource": "push",
+	"connectionIndicator": "no",
+	"language": "JavaScript",
+	"adminReact": "no",
+	"tools": [
+		"ESLint",
+		"type checking"
+	],
+	"indentation": "Tab",
+	"quotes": "single",
+	"es6class": "yes",
+	"authorName": "nxtstep",
+	"authorGithub": "basti85goe",
+	"authorEmail": "privat@konzeptplus.net",
+	"gitRemoteProtocol": "HTTPS",
+	"gitCommit": "no",
+	"license": "MIT License",
+	"ci": "gh-actions",
+	"dependabot": "no",
+	"creatorVersion": "1.31.0"
+}
