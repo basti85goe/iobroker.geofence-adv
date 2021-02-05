@@ -54,7 +54,7 @@
 		"platform": "Javascript/Node.js",
 		"main": "main.js",
 		"icon": "geofence-adv.png",
-		"enabled": true,
+		"enabled": false,
 		"extIcon": "https://raw.githubusercontent.com/basti85goe/ioBroker.geofence-adv/master/admin/geofence-adv.png",
 		"readme": "https://github.com/basti85goe/ioBroker.geofence-adv/blob/master/README.md",
 		"loglevel": "info",
@@ -71,8 +71,15 @@
 		]
 	},
 	"native": {
-		"option1": true,
-		"option2": "42"
+		"activate_server": true,
+		"port": 7999,
+		"ssl": true,
+		"create": true,
+		"userName": "geofence",
+		"userPassword": "VAQIA-7nQOf-yhtgt-Zrgxs",
+		"userGroupName": "geofence_allowed",
+		"activate_relay": false,
+		"relayServer": "https://<IP>:<PORT>"
 	},
 	"objects": [],
 	"instanceObjects": []
